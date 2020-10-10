@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 let showSex = true
 function Example2() {
     const [age, setAge] = useState(18)
-        const [sex, setSex] = useState('男')
-    
+    const [sex, setSex] = useState('男')
     const [work, setWork] = useState('前端开发')
     return (
         <div>
